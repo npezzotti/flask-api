@@ -1,5 +1,3 @@
-# ToDo Application
-
 ### To Run App in Vagrant/Docker
 
 1. Run `vagrant up`
