@@ -68,9 +68,6 @@ Vagrant.configure("2") do |config|
     ansible.playbook = "playbook.yml"
   end
   # config.vm.provision "shell", inline: <<-SHELL
-  #   sudo apt-get update
-  #   sudo apt-get install -y python3-pip
-  #   sudo pip3 install virtualenv
   #   apt-get update
   #   apt-get install -y apache2
   # SHELL
