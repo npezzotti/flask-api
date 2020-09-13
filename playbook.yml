@@ -9,6 +9,20 @@
   - name: Install python3-pip
     package:
       name: ['python3-pip']
-  - name: Install virtualenv
+  - name: Install virtualenv and docker 
     pip:
-      name: ['virtualenv']
+      name: ['virtualenv', 'docker']
+  - name: Build flask-api Container 
+    docker_image:
+      path: /vagrant 
+      name: flask-api
+      tag: latest
+      state: present
+  - name: Start flask-api Container
+    docker_container:
+      name: flask-api
+      state: started
+      image: flask-api:latest
+      detach: yes
+      published_ports: 5000:5000
+
