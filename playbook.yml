@@ -25,4 +25,6 @@
       image: flask-api:latest
       detach: yes
       published_ports: 5000:5000
+      volumes: 
+        - /vagrant/app:/app
 

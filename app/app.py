@@ -17,7 +17,7 @@ def add_headers(response):
 
 @app.route("/")
 def hello():
-    return "Hello World!"
+    return "Welcome to the Flask API!"
 
 
 @app.route("/<name>")
