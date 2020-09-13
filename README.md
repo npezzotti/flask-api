@@ -4,5 +4,5 @@
 2. Run `pip3 install -r requirements.txt`
 3. Run `python3 app/app.py`
 
-*Ansible is required to run Vagrant provisioning script which, upon running `vagrant up` will build image and start container.*
+*Ansible is required to run Vagrant provisioning script which, upon running `vagrant up`, will build image and start container.*
 
