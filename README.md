@@ -13,3 +13,5 @@
 3. Run `python3 app/app/py`
 3. Application is accessible on VM and host machine at `localhost`
 
+*Ansible is required to run Vagrant provisioning script*
+
