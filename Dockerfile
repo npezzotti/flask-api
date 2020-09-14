@@ -12,4 +12,4 @@ COPY . /app
 
 ENTRYPOINT ["python3"]
 
-CMD [ "app/app.py"]
+CMD ["microblog.py"]
